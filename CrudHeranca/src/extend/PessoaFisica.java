@@ -1,7 +1,7 @@
 package extend;
 
 public class PessoaFisica extends Pessoa {
-    // Atributo específico da classe PessoaFisica
+    // Atributo especÃ­fico da classe PessoaFisica
     private String cpf;
 
     // Construtor da classe PessoaFisica
@@ -10,24 +10,24 @@ public class PessoaFisica extends Pessoa {
         this.cpf = cpf;
     }
 
-    // Método getter para o CPF
+    // MÃ©todo getter para o CPF
     public String getCpf() {
         return cpf;
     }
 
-    // Método setter para o CPF
+    // MÃ©todo setter para o CPF
     public void setCpf(String cpf) {
         this.cpf = cpf;
     }
 
-    // Método toString para exibir informações da PessoaFisica
+    // MÃ©todo toString para exibir informaÃ§Ãµes da PessoaFisica
     @Override
     public String toString() {
         return "PessoaFisica{" +
-                "id=" + getId() +
                 ", nome='" + getNome() + '\'' +
                 ", idade=" + getIdade() +
                 ", cpf='" + cpf + '\'' +
                 '}';
     }
 }
+
