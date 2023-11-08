@@ -2,7 +2,6 @@ package extend;
 
 public class PessoaPessoa {
     // Atributos da classe PessoaPessoa
-    private int id;
     private String nome;
     private int idade;
 
@@ -12,17 +11,7 @@ public class PessoaPessoa {
         this.idade = idade;
     }
 
-    // Método getter para o ID
-    public int getId() {
-        return id;
-    }
-
-    // Método setter para o ID
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    // Métodos getters e setters para nome e idade
+    // MÃ©todos getters e setters para nome e idade
     public String getNome() {
         return nome;
     }
@@ -39,11 +28,10 @@ public class PessoaPessoa {
         this.idade = idade;
     }
 
-    // Método toString para exibir informações da PessoaPessoa
+    // MÃ©todo toString para exibir informaÃ§Ãµes da PessoaPessoa
     @Override
     public String toString() {
         return "PessoaPessoa{" +
-                "id=" + id +
                 ", nome='" + nome + '\'' +
                 ", idade=" + idade +
                 '}';
